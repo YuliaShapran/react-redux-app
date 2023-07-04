@@ -1,0 +1,39 @@
+.wrapper {
+	margin-top: 15px;
+}
+.tab-content {
+	margin-top: 20px;
+}
+
+.detailsTodo-list,
+.albums-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.todo-item,
+.albums-item {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #f4f4f4;
+}
+
+.todo-item.completed {
+	background-color: #e1f7e7;
+}
+
+.todo-item .checkbox {
+	margin-right: 10px;
+}
+
+.todo-item .title {
+	flex-grow: 1;
+}
+
